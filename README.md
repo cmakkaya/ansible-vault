@@ -15,6 +15,10 @@ You can build the following environment with terraform template to perform the t
 
 ## About ansible-vault git hub repo
 
+ansible-vault repository root folder and terraform template folder contents are below:
+
+![picture of repository contents](./repo-picture.jpg)
+
 ## Built With
 
 * Terraform
