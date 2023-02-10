@@ -3,7 +3,7 @@
 
 ## About The Article
 
-TThere are codes about article of "Working with sensitive data : Ansible Vault and using it with AWS Parameter Store". [To see the article of ansible-vault](https://cmakkaya.medium.com/working-with-sensitive-data-ansible-vault-and-using-it-with-aws-parameter-store-2f0c91c2b362)
+There are codes and files about article of "Working with sensitive data : Ansible Vault and using it with AWS Parameter Store". [To see the article of ansible-vault](https://cmakkaya.medium.com/working-with-sensitive-data-ansible-vault-and-using-it-with-aws-parameter-store-2f0c91c2b362)
 
 In the first part of this article, we’ll talk about how to secure your sensitive content or confidential information, such as your passwords, API tokens, SSH public or private keys, SSL certificates, and password variables, with Ansible Vault.
 
