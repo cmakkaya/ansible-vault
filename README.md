@@ -13,6 +13,8 @@ I’ll demonstrate how to use Ansible Vault and AWS SSM Parameter Store step by 
 
 You can build the following environment with terraform template to perform the tests mentioned in the article.
 
+## About ansible-vault git hub repo
+
 ## Built With
 
 * Terraform
