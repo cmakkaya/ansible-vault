@@ -90,7 +90,7 @@ resource "null_resource" "config" {
   }
 
   provisioner "file" {
-    # Do not forget to define your key file path correctly!
+    # Do not forget to define your key file path correctly! If it dosen't work, you don't use it.
     source = "~/.ssh/${var.mykey}.pem"
     destination = "/home/ec2-user/${var.mykey}.pem"
   }
