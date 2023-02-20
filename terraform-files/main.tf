@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 locals {
-  user = "clarusway"
+  user = "cumhur"
 }
 
 data "aws_ami" "amazon_linux2" {

@@ -1,0 +1,18 @@
+    1  pwd
+    2  ansible -v
+    3  ansible --version
+    4  clear
+    5 ansible-vault create secret.yml
+    6  ls
+    7  cat secret.yml 
+    8  vim create-user.yml
+    9  pwd
+   10  ls
+   11  ansible-playbook --ask-vault-pass create-user.yml
+   12  ansible all -b -m command -a "grep cumhur /etc/shadow"
+   13 ansible all -b -m command -a "grep mesut /etc/passwd"
+   14 ansible-vault edit secrets.yml
+   15 ansible-playbook create-user.yml --vault-password-file ./vault_password.sh
+
+
+
