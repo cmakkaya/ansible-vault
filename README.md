@@ -23,7 +23,7 @@ ansible-vault repository root folder and terraform template folder contents are 
 
 * Terraform
 
-This Terraform Template creates 3 Ansible Machines with ansible loaded on EC2 Instances.
+This Terraform Template creates 4 Ansible Machines with ansible loaded on EC2 Instances (1 control node, 3 managed node).
 Ansible Machines will run on Amazon Linux 2 with custom security group allowing SSH (22) and HTTP (80) connections from anywhere.
 User needs to select appropriate variables form "tfvars" file when launching the instance.
 
@@ -59,7 +59,7 @@ aws configure
 
 3. Do not forget to define your key file path in main.tf file and your key name in myvars.auto.tfvars file correctly! 
 
-4. Then, initialize the working directory.
+4. Then, initialize the working directory. It will download AWS provider files. It can take a few minutes.
 ```
 terraform init
 ```
