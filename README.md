@@ -27,6 +27,9 @@ This Terraform Template creates 4 Ansible Machines with ansible loaded on EC2 In
 Ansible Machines will run on Amazon Linux 2 with custom security group allowing SSH (22) and HTTP (80) connections from anywhere.
 User needs to select appropriate variables form "tfvars" file when launching the instance.
 
+* Also, you can watch my video, "How to Install Ansible with Terraform File" on my youtube account:
+https://www.youtube.com/watch?v=OKHK1N4hav8
+
 * Or create manually this enviroment on your cloud provider.
 
 ### Prerequisites
@@ -42,7 +45,8 @@ Git and Terraform are reqired for this deployment.
 - To install Terraform, go to the [Terraform Website](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 
-### Deployment
+## Deployment with terraform
+![picture of terraform install ansible](./terraform_install-ansible.png)
 
 1. Clone the repo and go to the deployment directory.
 
