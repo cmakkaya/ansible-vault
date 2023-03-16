@@ -3,9 +3,9 @@
 
 ## About The Article
 
-There are codes and files about article of "Working with sensitive data : Ansible Vault and using it with AWS Parameter Store". [To see the article of ansible-vault](https://cmakkaya.medium.com/working-with-sensitive-data-ansible-vault-and-using-it-with-aws-parameter-store-2f0c91c2b362)
+There are codes and files about article of "Working with sensitive data : Ansible Vault and using it with AWS Parameter Store". [To see my article about ansible-vault](https://cmakkaya.medium.com/working-with-sensitive-data-ansible-vault-and-using-it-with-aws-parameter-store-2f0c91c2b362) [To see my youtube video of "Working with sensitive data : Ansible Vault and using it with AWS Parameter Store"](https://www.youtube.com/@CumhurMesutAkkaya)
 
-In the first part of this article, we’ll talk about how to secure your sensitive content or confidential information, such as your passwords, API tokens, SSH public or private keys, SSL certificates, and password variables, with Ansible Vault.
+In the first part of this article and video, we’ll talk about how to secure your sensitive content or confidential information, such as your passwords, API tokens, SSH public or private keys, SSL certificates, and password variables, with Ansible Vault.
 
 In the second part of this article, we’ll talk about how to securely save and retrieve a password of a file created by ansible-vault, using the AWS SSM Parameter Store.
 
@@ -25,7 +25,7 @@ ansible-vault repository root folder and terraform template folder contents are 
 
 This Terraform Template creates 4 Ansible Machines with ansible loaded on EC2 Instances (1 control node, 3 managed node).
 Ansible Machines will run on Amazon Linux 2 with custom security group allowing SSH (22) and HTTP (80) connections from anywhere.
-User needs to select appropriate variables form "tfvars" file when launching the instance.
+User needs to select appropriate variables from "tfvars" file when launching the instance.
 
 * Also, you can watch my video, "How to Install Ansible with Terraform File" on my youtube account:
 https://www.youtube.com/watch?v=OKHK1N4hav8
