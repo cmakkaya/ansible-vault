@@ -101,7 +101,7 @@ terraform destroy
 - 🌐 [GitLab](https://gitlab.com/cmakkaya)
 - ✏️ [Medium Articles](https://cmakkaya.medium.com/)
 - ✏️ [Wordpress Articles](https://cloudplatformsanddevops.wordpress.com/)
-- 🏢 [Portfolio/Resume Page](https://portfolio.cmakkaya-awsdevops.link/)
+- 🏢 [Portfolio Page](https://cumhur.akkaya.link/)
 - 📺 [YouTube](https://www.youtube.com/channel/UCWcRIvy70tBBfrmBocDR5hA)
 
 
